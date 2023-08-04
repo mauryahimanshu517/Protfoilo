@@ -14,7 +14,7 @@ html,body{
     
 }
 #loader{
-    /* display: none; */
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -735,9 +735,8 @@ path,polyline{
     font-size: 10px;
 }
 .getintouch form{
-    
     height: 100%;
-    width: 90%;
+    width: 85%;
     margin-top: 30%;
     margin-left: -5%;
     text-align: center;
@@ -757,7 +756,7 @@ path,polyline{
     outline: none;
     border: none;
     height: 30px;
-    width: 40%;
+    width: 30%;
     color: white;
     background: rgba(225, 221, 221, 0.1);
     backdrop-filter: blur(10px);
@@ -769,14 +768,29 @@ path,polyline{
     letter-spacing: 2px;
     border-radius: 5px;
 }
+.getintouch form input:nth-child(1){
+
+    width: 40%;
+}
+.getintouch form input:nth-child(2){
+
+    width: 82%;
+    
+}
+
 .getintouch form input:nth-child(4){
    
-    width: 80%;
+    width: 82%;
     
 }
 .getintouch form input:nth-child(5){
     
-    width: 80%;
+    width: 82%;
+    
+}
+.getintouch form input:nth-child(6){
+    
+    width: 82%;
     
 }
 
@@ -1047,11 +1061,12 @@ button{
    .getintouch{
     position: absolute;
     width: 80%;
-    height: 55%;    
+    height: 65%;    
    }
    .getintouch form{
     margin-top: 0%;
     width: 100%;
+    padding: 0% 0 0 8%;
    }
    .marquee{
     display: block;
