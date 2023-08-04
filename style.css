@@ -737,8 +737,9 @@ path,polyline{
 .getintouch form{
     
     height: 100%;
-    width: 80%;
+    width: 90%;
     margin-top: 30%;
+    margin-left: -5%;
     text-align: center;
     border-radius: 5px;
 }
@@ -749,6 +750,7 @@ path,polyline{
     padding: 30px 0;
     color: rgb(255, 255, 255);
     letter-spacing: 3px;
+   
 }
 
 .getintouch form input{
@@ -778,6 +780,7 @@ path,polyline{
     
 }
 
+
 button{
     width: 22%;
     height: 5%;
@@ -797,8 +800,8 @@ button{
     align-items: center;
     text-align: center;
     justify-content: space-between;
+    
 }
-
 
 
 .marquee{
