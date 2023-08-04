@@ -197,4 +197,3 @@ loaderAnimation();
 cardshovereffect();
 card();
 getintouch();
-
