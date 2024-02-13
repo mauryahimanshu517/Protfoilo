@@ -1151,7 +1151,11 @@ button{
     display: none;
 }
 .card {
-    width: calc(50% - 40px);
+    width: 100px;
+    
+}
+.cards{
+    margin-top: 50px;
 }
 
 }
