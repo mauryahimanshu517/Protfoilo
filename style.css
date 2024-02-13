@@ -1150,8 +1150,14 @@ button{
 .c-visual svg{
     display: none;
 }
+#skill h1{
+    margin-top: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
 .card {
-    width: 100px;
+    width: 90px
     
 }
 .cards{
