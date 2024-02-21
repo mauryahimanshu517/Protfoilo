@@ -869,6 +869,29 @@ button{
     object-fit: cover;
     
 }
+#circle{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   padding: 11px;
+   box-shadow: 1px 1px 1px 1px grey;
+   
+}
+
+#circle a{
+    text-decoration: none;
+}
+#circle a i{
+    font-size: 27px;
+    color: black;
+    
+}
 
 
 /* Add media query for mobile view */

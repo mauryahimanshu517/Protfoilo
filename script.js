@@ -8,26 +8,6 @@ function valuesetter(){
     });
 }
 
-function revealtospan(){
-    document.querySelectorAll(".reveal")
-.forEach(function(elem){
-    //create two spans
-    let parent=document.createElement("span")
-    let child=document.createElement("span")
-
-    //parent and child both sets theire respective classes
-    parent.classList.add("parent");
-    child.classList.add("child")
-    //span prants gets child and child gets elem details
-
-    child.innerHTML=elem.innerHTML;
-    parent.appendChild(child)
-    //elem replaceses its value with praent spn
-    elem.innerHTML="";
-    elem.appendChild(parent);
-    
-})
-}
 
 function loaderAnimation(){
     
@@ -190,6 +170,27 @@ let linkClicked = false;
                 location.reload();
             }
         }
+        
+function revealtospan(){
+    document.querySelectorAll(".reveal")
+.forEach(function(elem){
+    //create two spans
+    let parent=document.createElement("span")
+    let child=document.createElement("span")
+
+    //parent and child both sets theire respective classes
+    parent.classList.add("parent");
+    child.classList.add("child")
+    //span prants gets child and child gets elem details
+
+    child.innerHTML=elem.innerHTML;
+    parent.appendChild(child)
+    //elem replaceses its value with praent spn
+    elem.innerHTML="";
+    elem.appendChild(parent);
+    
+})
+}
 // loco();
 revealtospan();
 valuesetter();
